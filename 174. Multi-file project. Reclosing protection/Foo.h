@@ -1,0 +1,14 @@
+//#pragma once
+//#include "Bar.h
+
+// для надійності юзаємо і #pragma once і #ifndef
+#pragma once 
+#ifndef _FOO_H_
+
+#define _FOO_H_
+
+#include "Bar.h"
+void Foo();
+
+#endif // !_FOO_H_
+
